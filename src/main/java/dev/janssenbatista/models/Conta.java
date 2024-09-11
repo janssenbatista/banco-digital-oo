@@ -50,7 +50,7 @@ public abstract class Conta {
         contaDestino.depositar(valor);
     }
 
-    protected void imprimirInfosComuns() {
+    public void imprimirInfosComuns() {
         System.out.printf("Titular: %s%n", this.cliente.getNome());
         System.out.printf("Agencia: %d%n", this.agencia);
         System.out.printf("Numero: %d%n", this.numero);

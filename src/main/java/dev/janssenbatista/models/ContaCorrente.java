@@ -7,7 +7,7 @@ public class ContaCorrente extends Conta {
     }
 
     @Override
-    protected void imprimirInfosComuns() {
+    public void imprimirInfosComuns() {
         System.out.println("=== Dados da Conta Corrente ===");
         super.imprimirInfosComuns();
     }
